@@ -35,12 +35,12 @@ raw data → cleaning → feature engineering → EDA → visualization
 netflix-movie-analysis/
 │
 ├── data/
-│   ├── netflix_titles.csv           # Raw original dataset
+│   ├── netflix_raw_data.csv           # Raw original dataset
 │   ├── netflix_cleaned.csv          # Cleaned dataset after Phase 1-4
 │   └── netflix_financial_clean.csv  # Budget-filtered financial subset
 │
 ├── netflix_analysis.ipynb           # Pandas — cleaning, EDA, analysis
-├── netflix_visualizations.ipynb     # Matplotlib — all 10 charts
+├── netflix_visualizations.ipyn     # Matplotlib — all 10 charts
 ├── README.md
 └── requirements.txt
 ```
